@@ -1,0 +1,46 @@
+** Drc report for esp32connector.kicad_pcb **
+** Created on 2026-10-02T20:02:12 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 7 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(92.7500 mm, 33.2500 mm): Rectangle on F.Silkscreen
+    @(110.5000 mm, 34.7500 mm): PCB text 'ESP32' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(135.7500 mm, 87.5000 mm): Reference field of G***
+    @(135.6538 mm, 84.7237 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(135.7500 mm, 87.5000 mm): Reference field of G***
+    @(135.6856 mm, 84.3991 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(135.7500 mm, 87.5000 mm): Reference field of G***
+    @(140.7512 mm, 87.5000 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(123.9400 mm, 137.3800 mm): Segment of J6 on F.Silkscreen
+    @(127.5600 mm, 142.0000 mm): PCB text 'BUZZER' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(123.9400 mm, 137.3800 mm): Segment of J6 on F.Silkscreen
+    @(125.0200 mm, 141.2500 mm): PCB text 'DAC-L' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(91.0000 mm, 30.5000 mm): Rectangle on Edge.Cuts
+    @(167.5000 mm, 30.2500 mm): Rectangle on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
